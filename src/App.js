@@ -8,7 +8,9 @@ import axios from "axios";
 
 axios.defaults.withCredentials = true;
 // axios.defaults.baseURL = "https://successful-eel-pea-coat.cyclic.app";
-axios.defaults.baseURL = "http://localhost:8000"
+// axios.defaults.baseURL = "http://localhost:8000"
+axios.defaults.baseURL = "https://nexusbackend.onrender.com"
+
 
 function App() {
   return (
