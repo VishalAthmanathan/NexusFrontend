@@ -20,16 +20,16 @@ const About = () => {
 
             <div className="row">
                 <div className="col-1-of-2">
-                    <p className="paragraph">
-                        <b>Nexus Event: </b>
-                        Welcome to a fusion of technology and beats, where we craft
-                        unforgettable experiences that inspire and empower. With our
-                        dedicated team, we curate diverse gatherings that celebrate innovation
-                        and the power of connection. At Nexus Event, inclusivity, innovation, and 
-                        quality drive everything we do. Whether you're a seasoned techie or a curious newcomer, 
-                        there's something for everyone to explore and enjoy. Join us in shaping the future of 
-                        Nexus Event—attend, volunteer, or partner with us—and let's create moments that inspire and unite. 
-                        Connect with us on social media for updates and announcements.
+                <p className="paragraph">
+                        <b>Computer Science & Business Systems </b>
+                        is the first stream in engineering designed to meet the future
+                        demands of the rapidly changing tech industry in the era of
+                        Business 4.0. Designed by Tata Consultancy Services in an MoU
+                        with educational institutions, CSBS is the degree program of the
+                        future. The curriculum aims to ensure that the students
+                        graduating from the program not only skill up in computer
+                        science but also develop an equal appreciation of humanities and
+                        management sciences.
                     </p>
 
                 </div>
