@@ -1,16 +1,15 @@
 import React from "react";
-import "../componentscss/loader.css";
-import loadervid from './videos/loader.gif';
+import "./Loader.css";
+import loadervid from '../../video/loader1.mp4';
 
 const Loader = () => {
   return (
     <div className="loader">
       <div className="svg-wrapper">
-        {/* <video className="bg-video__content" autoPlay muted loop>
+        <video className="bg-video__content" autoPlay muted loop>
           <source src={loadervid} type="video/mp4" />
           Your browser is not supported!
-        </video> */}
-        <img className="bg-video__content" src={loadervid} alt="Your browser is not supported!" />
+        </video>
         <div className="loading-text">Loading...</div>
       </div>
     </div>

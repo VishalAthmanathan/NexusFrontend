@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import i1 from './imgs/spiderlogo.jpg';
-import i2 from './imgs/spiderlogo.jpg';
-import i3 from './imgs/bgimg.jpg';
+import i1 from '../img/IMG_4809.JPG';
+import i2 from '../img/DSC_0548.JPG';
+import i3 from '../img/IMG_4841.JPG';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 

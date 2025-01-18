@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import hubsol from './imgs/google.png';
-import poorvi from './imgs/google.png';
-import ovi from './imgs/google.png';
+import hubsol from "../img/hubsoln.jpeg";
+import poorvi from "../img/poorvika.png";
+import ovi from "../img/ovi.jpg";
 import "../App.css";
 import Aos from "aos";
 import 'aos/dist/aos.css';

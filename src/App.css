@@ -1084,9 +1084,9 @@ body {
       right bottom,
       from(#10002b),
       to(#240046)),
-    url(./components/imgs/spiderlogo.jpg);
+    url(./img/xcoders.png);
   background-image: linear-gradient(to right bottom, #10002b, #240046),
-    url(./components/imgs/spiderlogo.jpg);
+    url(./img/xcoders.png);
 }
 
 .card__picture--2-tech {
@@ -1095,9 +1095,9 @@ body {
       right bottom,
       from(#10002b),
       to(#240046)),
-    url(./components/imgs/spiderlogo.jpg);
+    url(.img/thesisprecised.jpg);
   background-image: linear-gradient(to right bottom, #10002b, #240046),
-    url(./components/imgs/spiderlogo.jpg);
+    url(./img/thesisprecised.jpg);
 }
 
 .card__picture--3-tech {
@@ -1106,9 +1106,9 @@ body {
       right bottom,
       from(#10002b),
       to(#240046)),
-    url(./components/imgs/spiderlogo.jpg);
+    url(./img/coinquest.jpg);
   background-image: linear-gradient(to right bottom, #10002b, #240046),
-    url(./components/imgs/spiderlogo.jpg);
+    url(./img/coinquest.jpg);
 }
 
 .card__picture--4-tech {
@@ -1117,9 +1117,9 @@ body {
       right bottom,
       from(#10002b),
       to(#240046)),
-    url(./components/imgs/spiderlogo.jpg);
+    url(./img/plutus.jpg);
   background-image: linear-gradient(to right bottom, #10002b, #240046),
-    url(./components/imgs/spiderlogo.jpg);
+    url(./img/plutus.jpg);
 }
 
 .card__picture--5-tech {
@@ -1128,9 +1128,9 @@ body {
       right bottom,
       from(#10002b),
       to(#240046)),
-    url(./components/imgs/spiderlogo.jpgg);
+    url(./img/algo1.jpg);
   background-image: linear-gradient(to right bottom, #10002b, #240046),
-    url(./components/imgs/spiderlogo.jpg);
+    url(./img/algo1.jpg);
 }
 
 .card__picture--6-tech {
@@ -1139,9 +1139,9 @@ body {
       right bottom,
       from(#10002b),
       to(#240046)),
-    url(./components/imgs/spiderlogo.jpg);
+    url(./img/ftb1.png);
   background-image: linear-gradient(to right bottom, #10002b, #240046),
-    url(./components/imgs/spiderlogo.jpg);
+    url(./img/ftb1.png);
 }
 
 .card__picture--4-nontech {
@@ -1152,7 +1152,7 @@ body {
       to(#240046)),
     url(./img/virtuoso.jpg);
   background-image: linear-gradient(to right bottom, #10002b, #240046),
-    url(./components/imgs/spiderlogo.jpg);
+    url(./img/virtuoso.jpg);
 }
 
 .single-card {
@@ -1168,9 +1168,9 @@ body {
       right bottom,
       from(#10002b),
       to(#240046)),
-    url(./components/imgs/spiderlogo.jpg);
+    url(./img/trade.jpg);
   background-image: linear-gradient(to right bottom, #10002b, #240046),
-    url(./components/imgs/spiderlogo.jpg);
+    url(./img/trade.jpg);
 }
 
 .card__picture--2-workshop {
@@ -1179,9 +1179,9 @@ body {
       right bottom,
       from(#10002b),
       to(#240046)),
-    url(./components/imgs/spiderlogo.jpg);
+    url(./img/figma.jpg);
   background-image: linear-gradient(to right bottom, #10002b, #240046),
-    url(./components/imgs/spiderlogo.jpg);
+    url(./img/figma.jpg);
 }
 
 .card__heading {
@@ -1835,10 +1835,6 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 160px;
-  width: 50%;
-  margin: auto;
-  background-color: white;
 }
 
 .logos .zor {
@@ -1846,7 +1842,7 @@ html {
 }
 
 #header>div.header__text-box>div>img.heading-primary--main.zorphix {
-  height: 350px;
+  height: 150px;
 }
 
 .header__text-box {
@@ -2741,3 +2737,4 @@ section p:first-child,
     transform: rotate(1turn);
   }
 }
+

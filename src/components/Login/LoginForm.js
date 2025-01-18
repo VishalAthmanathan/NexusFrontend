@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import "../componentscss/login.css";
-import logo from './imgs/nexusLogo.png';
-import img1 from './imgs/spiderlogo.jpg';
-import img2 from './imgs/spiderlogo.jpg';
-import img3 from './imgs/spiderlogo.jpg';
-import img4 from './imgs/spiderlogo.jpg';
-import img5 from './imgs/spiderlogo.jpg';
-import img6 from './imgs/spiderlogo.jpg';
-import img7 from './imgs/spiderlogo.jpg';
-import img8 from './imgs/spiderlogo.jpg';
-import img9 from './imgs/spiderlogo.jpg';
+import "./Login.css";
+import logo from "../../img/loginlog.png";
+import img1 from "../../img/eventposters/xcoders.jpg";
+import img2 from "../../img/eventposters/thesis precised.jpg";
+import img3 from "../../img/eventposters/coin quest.jpg";
+import img4 from "../../img/eventposters/plutus.jpg";
+import img5 from "../../img/eventposters/algo rhythms.jpg";
+import img6 from "../../img/eventposters/flipitquizit.jpg";
+import img7 from "../../img/eventposters/virtuoso.jpg";
+import img8 from "../../img/eventposters/ui ux.jpg";
+import img9 from "../../img/eventposters/trading and investment.jpg";
 
 import axios from "axios";
 import Select from "react-select";

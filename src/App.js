@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-import LoginForm from "./components/login";
+import LoginForm from "./components/Login/LoginForm";
 import { Toaster } from "react-hot-toast";
 import axios from "axios";
 // import Attendence from "./Components/Attendence";

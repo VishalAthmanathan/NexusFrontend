@@ -1,16 +1,16 @@
 import '../App.css';
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import img1 from './imgs/spiderlogo.jpg'
-import img2 from './imgs/spiderlogo.jpg'
-import img3 from './imgs/spiderlogo.jpg'
-import img4 from './imgs/spiderlogo.jpg'
-import img5 from './imgs/spiderlogo.jpg'
-import img10 from './imgs/spiderlogo.jpg'
-import img12 from './imgs/spiderlogo.jpg'
-import img13 from './imgs/spiderlogo.jpg'
-import img14 from './imgs/spiderlogo.jpg'
-import img15 from './imgs/spiderlogo.jpg'
+import img1 from '../img/eventphotos/event1.JPG'
+import img2 from '../img/eventphotos/event2.JPG'
+import img3 from '../img/eventphotos/event3.JPG'
+import img4 from '../img/eventphotos/event4.JPG'
+import img5 from '../img/eventphotos/event5.JPG'
+import img10 from '../img/eventphotos/event10.JPG'
+import img12 from '../img/eventphotos/event12.JPG'
+import img13 from '../img/eventphotos/event13.JPG'
+import img14 from '../img/eventphotos/event14.JPG'
+import img15 from '../img/eventphotos/event15.JPG'
 
 const CarouselComponent = () => {
   return (

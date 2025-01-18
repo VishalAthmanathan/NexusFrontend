@@ -2,14 +2,14 @@ import React from "react";
 import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import "../App.css";
-import Main from "./Main";
-// import citlogo from './imgs/spiderlogo.jpg';
-// import zorphixfinal from './imgs/nexusLogo.png';
-import zorphixlanding from './imgs/nexusLogo.png';
+import Main from "../components/Main";
+import citlogo from "../img/NEW LOGO CIT.png";
+import zorphixfinal from "../img/Zorphix final without name.png";
+import zorphixlanding from "../img/zorphix-landing-logo.png";
 import { motion, useScroll } from "framer-motion";
-import Loader from "./loader";
-import bgvideo from "./videos/video.mp4";
-import Counter from "./counter";
+import Loader from "../components/Loader/Loader";
+import bgvideo from "../video/zorphixbgnew.mp4";
+import Counter from "../components/counter";
 
 const Home = () => {
   const { scrollYProgress } = useScroll();
@@ -142,17 +142,17 @@ const Home = () => {
         </div>
 
         <div className="header" id="header">
-          {/* <div className="header__logo-box">
+          <div className="header__logo-box">
             <img className="citlogo" src={citlogo} alt="clg-logo" />
-          </div> */}
+          </div>
 
           <div className="header__text-box">
             <div className="logos">
-              {/* <img
+              <img
                 className="heading-primary--sub zor"
                 src={zorphixfinal}
                 alt="new-logo"
-              /> */}
+              />
               <img
                 className="heading-primary--main zorphix"
                 src={zorphixlanding}

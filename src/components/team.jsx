@@ -1,5 +1,5 @@
 import React from 'react';
-import video from './videos/video.mp4'
+import video from '../video/video.mp4'
 
 
 const Team = () => {
@@ -17,21 +17,21 @@ const Team = () => {
       </div>
       <div className="main-section">
         <div className="box">
-          <h2 className="position">Head</h2>
+          <h2 className="position">President</h2>
           <h3 className="heading-tertiary u-margin-bottom-small">
-            Ashspidy
+            Raveen RV
           </h3>
-          <p>+91 9874563201</p>
+          <p>+91 90921 25904</p>
         </div>
         <div className="box">
-          <h2 className="position">Assistant Head</h2>
-          <h3 className="heading-tertiary u-margin-bottom-small">Ash</h3>
-          <p>+91 9898974543</p>
+          <h2 className="position">Vice President</h2>
+          <h3 className="heading-tertiary u-margin-bottom-small">Bharath</h3>
+          <p>+91 97515 83361</p>
         </div>
         <div className="box">
-          <h2 className="position">Helper</h2>
-          <h3 className="heading-tertiary u-margin-bottom-small">Pankaj</h3>
-          <p>+91 1234356579</p>
+          <h2 className="position">Treasurer</h2>
+          <h3 className="heading-tertiary u-margin-bottom-small">Karan & Sheryl</h3>
+          <p>+91 73976 59717</p>
         </div>
       </div>
     </div>

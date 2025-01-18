@@ -1,21 +1,21 @@
 import React from 'react'
-// import fulllogo from '../img/footer.png';
-import instalogo from './imgs/insta footer.png';
-import gmaillogo from './imgs/gmail.png';
+import fulllogo from '../img/footer.png'
+import instalogo from '../img/insta footer.png';
+import gmaillogo from '../img/gmail.png'
 
 const Footer = () => {
     return (
         <div id="footer" className="footer">
-            {/* <div className="footer__logo-box">
+            <div className="footer__logo-box">
                 <picture className="footer__logo">
                     <img alt="Full logo" src={fulllogo}/>
                 </picture>
-            </div> */}
+            </div>
             <div className="row">
                 <div className="col-1-of-2">
                     <p className="footer__copyright">
-                    Experience the nexus of technology at Nexus Event. Join us and be
-                    part of something extraordinary.
+                        Zorphix is a national level techno-management symposium organized by the
+                        Department of Computer Science and Business Systems at Chennai Institute of Technology.
                     </p>
                 </div>
 
@@ -25,14 +25,14 @@ const Footer = () => {
                             <h3>CONNECT WITH US</h3>
                             <div className="f_inner">
                             <a
-                                href="https://www.instagram.com/nexus/"
+                                href="https://www.instagram.com/zorphix.cit/"
                                 target="_blank"
                                 rel='noreferrer'
                             >
                                 <img className="footer__img" src={instalogo} alt=""
                                 /></a>
                             <a
-                                href="mailto:nexus@gmail.com"
+                                href="mailto:zorphix@citchennai.net"
                                 target="_blank"
                                 rel='noreferrer'
                             >
@@ -44,7 +44,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='text-center'>
-                <span className="copyright">©NEXUS EVENT All rights reserved</span>
+                <span className="copyright">©Zorphix 2023 All rights reserved</span>
             </div>
             <div className='text-center'>
                 <span>Visitors:</span>
